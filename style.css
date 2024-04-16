@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    transition: background-color 1s ease; /* Add transition for smooth color change */
+}
+
+.container {
+    text-align: center;
+}
+
+.clock {
+    font-size: 3em;
+    color: #fff;
+}
